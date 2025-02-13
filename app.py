@@ -12,7 +12,7 @@ app = FastAPI()
 # Configure CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Add your Next.js app URL
+    allow_origins=["http://localhost:3000","https://doctor-dashboard-lyart.vercel.app/"],  # Add your Next.js app URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
